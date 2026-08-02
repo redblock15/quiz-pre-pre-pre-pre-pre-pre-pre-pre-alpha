@@ -1,9 +1,12 @@
 import sys
+import time
 
 def killself():
-    sys.exit()
-
+    time.sleep(3)
+    sys.exit
+    
 print("welcome\nONLY answer with yes or no\nReady?")
+
 def main(yesOut, noOut, correctString=None):
     response = input().lower()
     
@@ -13,8 +16,12 @@ def main(yesOut, noOut, correctString=None):
         print(noOut)
     else:
         print("Invalid input")
-        
-    killself() if response == correctString else print()            
+        killself()
+
+    time.sleep(3)
+    killself() if response == correctString else print()  
+
+
 main("No you're not", "Yes you are", "/gamerule crash=true")
 
 print("1. Isn't a whale a mammaI")
