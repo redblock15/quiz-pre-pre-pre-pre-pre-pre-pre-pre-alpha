@@ -27,7 +27,7 @@ main("Scientifically speaking, you're wrong", "Lucky", "yes")
 
 print("3. What is 1+1?")
 
-main("You don't know", "Lazy" "no")
+main("You don't know", "Lazy", "no")
 
 print("4. Do blackbears climb trees?")
 
